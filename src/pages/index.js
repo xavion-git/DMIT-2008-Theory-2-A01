@@ -6,7 +6,7 @@ import ContactsCard from "../components/ContactsCard";
 import TimeZone from "../components/TimeZoneCard";
 import AboutMe from "../components/AboutMe";
 import Now from "../components/Now";
-import ContentPlaceholder from "../components/ContentPlaceholder";
+import WeatherCard from "../components/WeatherCard";
 import profileData from "@/data/profile.json";
 // import Globe from "../components/Globe";
 
