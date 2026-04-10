@@ -1,6 +1,5 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import profile from "../../profile.json";
 
 export default function handler(req, res) {
-  res.status(200).json(profile.about);
+  res.status(200).json({ name: 'John Doe' });
 }
