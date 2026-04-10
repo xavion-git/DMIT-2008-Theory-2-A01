@@ -8,8 +8,16 @@ import AboutMe from "../components/AboutMe";
 import Now from "../components/Now";
 import WeatherCard from "../components/WeatherCard";
 import profileData from "@/data/profile.json";
-// import Globe from "../components/Globe";
+import { getWeatherForProfile } from "@/lib/weather";
 
+
+export async function getServerSideProps() {
+  const weather = await getWeatherForProfile(
+    profileData,
+    process.env.OPENWEATHER_API_KEY,
+  )
+  return {props : { weather }}
+}
 export default function Home() {
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
