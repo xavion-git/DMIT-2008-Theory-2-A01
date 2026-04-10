@@ -8,7 +8,7 @@ import AboutMe from "../components/AboutMe";
 import Now from "../components/Now";
 import WeatherCard from "../components/WeatherCard";
 import profileData from "@/data/profile.json";
-import { getWeatherForProfile } from "@/lib/weather";
+import { getWeatherForProfile } from "../lib/weather";
 
 
 export async function getServerSideProps() {
