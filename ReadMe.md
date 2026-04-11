@@ -1,8 +1,10 @@
 # Theory 2
 
-> Student Name: **Xavion Dean**
+> Xavion Dean
+> Github: xavion-git
 
 ![Website Screenshot](./docs/images/screenshot.png)
+<img width="1352" height="820" alt="image" src="https://github.com/user-attachments/assets/cb450ef8-0f59-45f4-978c-b622b293ff2c" />
 
 In this assignment, you will demonstrate your ability to
 
