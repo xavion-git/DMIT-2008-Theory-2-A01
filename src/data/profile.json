@@ -41,6 +41,11 @@
         "url": "https://www.linkedin.com/in/xavion-dean"
       }
     ],
+  "supportLink": {
+    "url": "https://ko-fi.com",
+    "imageSrc": "https://storage.ko-fi.com/cdn/kofi6.png?v=6",
+    "imageAlt": "Buy Me a Coffee at ko-fi.com"
+  },
     "image": {
       "src": "/me.webp",
       "alt": "memoji of Xavion"
